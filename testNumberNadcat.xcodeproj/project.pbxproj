@@ -13,6 +13,8 @@
 		84221BF52629555E00CB4BF5 /* Vova.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84221BF32629555E00CB4BF5 /* Vova.storyboard */; };
 		84221BF72629556200CB4BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84221BF62629556200CB4BF5 /* Assets.xcassets */; };
 		84221BFA2629556200CB4BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84221BF82629556200CB4BF5 /* LaunchScreen.storyboard */; };
+		9514DF8F2629597700777292 /* AnnaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9514DF8E2629597700777292 /* AnnaStoryboard.storyboard */; };
+		9514DF92262959AC00777292 /* AnnasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514DF91262959AC00777292 /* AnnasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84221BF62629556200CB4BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84221BF92629556200CB4BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84221BFB2629556300CB4BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9514DF8E2629597700777292 /* AnnaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnnaStoryboard.storyboard; sourceTree = "<group>"; };
+		9514DF91262959AC00777292 /* AnnasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				84221BF32629555E00CB4BF5 /* Vova.storyboard */,
+				9514DF8E2629597700777292 /* AnnaStoryboard.storyboard */,
 				84221BF82629556200CB4BF5 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				84221BF12629555E00CB4BF5 /* VovasViewController.swift */,
+				9514DF91262959AC00777292 /* AnnasViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				84221BFA2629556200CB4BF5 /* LaunchScreen.storyboard in Resources */,
 				84221BF72629556200CB4BF5 /* Assets.xcassets in Resources */,
 				84221BF52629555E00CB4BF5 /* Vova.storyboard in Resources */,
+				9514DF8F2629597700777292 /* AnnaStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9514DF92262959AC00777292 /* AnnasViewController.swift in Sources */,
 				84221BF22629555E00CB4BF5 /* VovasViewController.swift in Sources */,
 				84221BEE2629555E00CB4BF5 /* AppDelegate.swift in Sources */,
 				84221BF02629555E00CB4BF5 /* SceneDelegate.swift in Sources */,
